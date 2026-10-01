@@ -4,11 +4,20 @@
 
 > **Hackathon Submission Notice:**  
 > This repository consolidates **TWO independent, production-grade applications** into a single source-code submission for hackathon evaluation:
-> 1. **Citizen Portal** (`citizen-portal/`)
-> 2. **Municipal Authority Portal** (`authority-portal/`)
+> 1. **Citizen Portal** (`citizen-portal/`): [github.com/prithvirajsingh11/NagarDrishti-AI](https://github.com/prithvirajsingh11/NagarDrishti-AI)
+> 2. **Municipal Authority Portal** (`authority-portal/`): [github.com/prithvirajsingh11/NagarDrishti-AI-Authority](https://github.com/prithvirajsingh11/NagarDrishti-AI-Authority)
 >
 > **Important Deployment Context:**  
 > Both applications remain completely independent systems. Their existing production deployments and original repositories remain active and unchanged. This consolidated repository exists solely as a unified evaluation workspace for hackathon judges to inspect the complete end-to-end architecture, source code, and automated test suites.
+
+---
+
+### 🏛️ Standalone Project Repositories
+
+| Application | Role | Original Git Repository |
+|---|---|---|
+| **Citizen Portal** | Public Web & Android App for civic issue reporting | [prithvirajsingh11/NagarDrishti-AI](https://github.com/prithvirajsingh11/NagarDrishti-AI) (`https://github.com/prithvirajsingh11/NagarDrishti-AI.git`) |
+| **Municipal Authority Portal** | Administrative Command Center, GIS intelligence & squad dispatch | [prithvirajsingh11/NagarDrishti-AI-Authority](https://github.com/prithvirajsingh11/NagarDrishti-AI-Authority) (`https://github.com/prithvirajsingh11/NagarDrishti-AI-Authority.git`) |
 
 ---
 
@@ -26,6 +35,8 @@ Traditional civic complaint systems suffer from high reporting friction, vague i
 
 ## 2. Citizen Portal
 
+> **Standalone Repository:** [`https://github.com/prithvirajsingh11/NagarDrishti-AI.git`](https://github.com/prithvirajsingh11/NagarDrishti-AI)
+
 The **Citizen Portal** (`citizen-portal/`) delivers a mobile-first and web experience for civic defect reporting and tracking:
 
 - **AI Vision Intake:** Analyzes uploaded or captured photos with Google Gemini Multimodal Vision to extract defect categories (potholes, garbage dumps, broken streetlights, open drains, water leakage), confidence levels, and visual severity scores (LOW, MEDIUM, HIGH, CRITICAL).
@@ -39,6 +50,8 @@ The **Citizen Portal** (`citizen-portal/`) delivers a mobile-first and web exper
 ---
 
 ## 3. Municipal Authority Portal
+
+> **Standalone Repository:** [`https://github.com/prithvirajsingh11/NagarDrishti-AI-Authority.git`](https://github.com/prithvirajsingh11/NagarDrishti-AI-Authority)
 
 The **Municipal Authority Portal** (`authority-portal/`) is the operational command center for municipal administrators, zonal engineers, and dispatchers:
 
@@ -143,6 +156,7 @@ Both portals function as decoupled web/mobile frontends operating on a unified c
 ```text
 NagarDrishti-AI-Hackathon/
 ├── citizen-portal/                  # Citizen Web & Mobile Application
+│   │                                # Standalone: https://github.com/prithvirajsingh11/NagarDrishti-AI.git
 │   ├── backend/                     # FastAPI Civic API Gateway & Services
 │   │   ├── app/                     # API routers, core config, schemas, services
 │   │   ├── data/                    # Local seed / backup database
@@ -158,6 +172,7 @@ NagarDrishti-AI-Hackathon/
 │   └── README.md                    # Citizen Portal detailed documentation
 │
 ├── authority-portal/                # Municipal Authority Command Center
+│   │                                # Standalone: https://github.com/prithvirajsingh11/NagarDrishti-AI-Authority.git
 │   ├── backend/                     # FastAPI Authority API & RBAC services
 │   │   ├── app/                     # Routers, models, auth, store services
 │   │   ├── tests/                   # 40 backend test cases
