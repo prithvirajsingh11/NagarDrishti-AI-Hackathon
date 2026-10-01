@@ -1,0 +1,231 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    --accent-red: #ef4444;
+    --accent-amber: #f59e0b;
+    --accent-blue: #2563eb;
+    --accent-emerald: #10b981;
+    color-scheme: light;
+  }
+
+  html.dark {
+    --accent-red: #f43f5e;
+    --accent-blue: #3b82f6;
+    color-scheme: dark;
+  }
+
+  html.light {
+    --accent-red: #ef4444;
+    --accent-blue: #2563eb;
+    color-scheme: light;
+  }
+
+  * {
+    font-family: var(--font-sans);
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Leaflet map styles */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+  z-index: 10;
+  background-color: #f1f5f9;
+  font-family: var(--font-sans) !important;
+}
+
+.dark .leaflet-container {
+  background-color: #0b0f19;
+}
+
+/* Leaflet popup customization for minimal look */
+.leaflet-popup-content-wrapper {
+  background: #ffffff;
+  color: #0f172a;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 0;
+  border: 1px solid #e2e8f0;
+}
+
+.dark .leaflet-popup-content-wrapper {
+  background: #0f172a;
+  color: #f1f5f9;
+  border: 1px solid #1e293b;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.leaflet-popup-tip {
+  background: #ffffff;
+}
+
+.dark .leaflet-popup-tip {
+  background: #0f172a;
+}
+
+/* Custom Marker DivIcon (Leaflet Live Incidents) */
+.custom-div-icon {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s ease-out;
+}
+
+.custom-div-icon:hover {
+  transform: scale(1.08);
+  z-index: 1000 !important;
+}
+
+.custom-div-icon i,
+.custom-div-icon svg {
+  display: inline-block;
+  line-height: 1;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+/* Map Layer Switcher Buttons (.map-btn) */
+.map-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background: transparent;
+  color: #64748b;
+  user-select: none;
+}
+
+.dark .map-btn {
+  color: #94a3b8;
+}
+
+.map-btn:hover {
+  color: #0f172a;
+  background: rgba(241, 245, 249, 0.9);
+}
+
+.dark .map-btn:hover {
+  color: #f8fafc;
+  background: rgba(30, 41, 59, 0.9);
+}
+
+.map-btn.active {
+  background: #0f172a;
+  color: #ffffff !important;
+  font-weight: 600;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.dark .map-btn.active {
+  background: #f8fafc;
+  color: #0f172a !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Enhanced Leaflet Popup Content */
+.leaflet-popup-content {
+  margin: 0 !important;
+  line-height: 1.4;
+}
+
+.leaflet-popup-content h4 {
+  margin: 0 0 0.25rem 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.dark .leaflet-popup-content h4 {
+  color: #f8fafc;
+}
+
+.leaflet-popup-content p {
+  margin: 0;
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.dark .leaflet-popup-content p {
+  color: #94a3b8;
+}
+
+/* Mobile Touch & Safe Area Support */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .pt-safe {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+}
+
+.touch-manipulation {
+  touch-action: manipulation;
+}
+
+/* Smooth mobile momentum scrolling */
+.scroll-touch {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Prevent accidental horizontal bounce on phone viewports */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Native-feel tap highlight removal */
+button, a, input, select, textarea {
+  -webkit-tap-highlight-color: transparent;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "nagardrishti-ai-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NagarDrishti AI - Municipal Civic Intelligence Full-Stack Workspace",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "python backend/run.py",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "postinstall": "npm --prefix frontend install",
+    "install:frontend": "npm --prefix frontend install"
+  }
+}

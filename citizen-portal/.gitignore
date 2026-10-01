@@ -1,0 +1,40 @@
+# Environments & secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python
+backend/.venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+backend/uploads/
+uploads/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+*.local
+
+# Capacitor / Android build artifacts
+android/app/build/
+android/.gradle/
+android/local.properties
+frontend/android/app/build/
+frontend/android/.gradle/
+frontend/android/local.properties
+capacitor.config.json.backup
+
+# IDEs & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

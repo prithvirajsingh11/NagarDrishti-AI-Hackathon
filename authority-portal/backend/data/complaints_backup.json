@@ -1,0 +1,2060 @@
+{
+  "supabase": [
+    {
+      "id": "3030cf6d-c3fd-4b95-b2c4-c3798f514f81",
+      "report_id": "NGD-2026-00121",
+      "problem_type": "pothole",
+      "confidence": 0.95,
+      "severity": "HIGH",
+      "evidence": [
+        "deep asphalt crater"
+      ],
+      "latitude": 23.2355,
+      "longitude": 77.432,
+      "location_name": "Hamidia Road, Bhopal",
+      "department": "Municipal Roads (PWD)",
+      "description": "Hazardous road crater causing traffic disruption",
+      "image_url": "https://example.com/pothole.jpg",
+      "status": "RESOLVED",
+      "duplicate_of": "NGD-2026-00120",
+      "created_at": "2026-09-29T19:03:11.739595+00:00",
+      "updated_at": "2026-09-29T19:07:57.64345+00:00",
+      "citizen_id": null
+    },
+    {
+      "id": "79bd0b37-7f62-4c7f-8ed3-d74953bb6c26",
+      "report_id": "NGD-2026-00001",
+      "problem_type": "drain",
+      "confidence": 0.95,
+      "severity": "MEDIUM",
+      "evidence": [
+        "Open concrete drainage box with standing dark wastewater",
+        "Accumulated sludge, grime, and debris clogging the drainage channel",
+        "Partially displaced concrete cover exposing the contaminated drain"
+      ],
+      "latitude": 28.6139,
+      "longitude": 77.209,
+      "location_name": "Connaught Place, New Delhi",
+      "department": "Drainage / Sanitation",
+      "description": "",
+      "image_url": "/api/complaints/image/1602dd23262c412fa82e5157847d9f9e.jpg",
+      "status": "RESOLVED",
+      "duplicate_of": null,
+      "created_at": "2026-09-29T10:27:22.825648+00:00",
+      "updated_at": "2026-09-29T17:43:35.496311+00:00",
+      "citizen_id": "ed282274-5111-4955-bfa5-17987b24912f"
+    },
+    {
+      "id": "e926721b-21a0-42e6-9d07-3e219ed3e3c9",
+      "report_id": "NGD-2026-00053",
+      "problem_type": "drain",
+      "confidence": 0.92,
+      "severity": "MEDIUM",
+      "evidence": [
+        "Clogged and debris-covered stormwater drainage grating on the roadside",
+        "Litter and leaves accumulated inside and around the drainage grate"
+      ],
+      "latitude": 23.2599,
+      "longitude": 77.4126,
+      "location_name": "Bhopal, Madhya Pradesh",
+      "department": "Drainage / Sanitation",
+      "description": "",
+      "image_url": "/api/complaints/image/b5c193670d2f474a87b1d42259f8e64e.jpg",
+      "status": "RESOLVED",
+      "duplicate_of": null,
+      "created_at": "2026-09-29T16:50:43.166623+00:00",
+      "updated_at": "2026-09-29T17:44:55.396042+00:00",
+      "citizen_id": "ed282274-5111-4955-bfa5-17987b24912f"
+    },
+    {
+      "id": "a4c1550e-06cf-46f8-8a87-e6c82da4fbf9",
+      "report_id": "NGD-2026-00119",
+      "problem_type": "pothole",
+      "confidence": 0.95,
+      "severity": "HIGH",
+      "evidence": [
+        "deep asphalt crater"
+      ],
+      "latitude": 23.2355,
+      "longitude": 77.432,
+      "location_name": "Hamidia Road, Bhopal",
+      "department": "Municipal Roads (PWD)",
+      "description": "Hazardous road crater causing traffic disruption",
+      "image_url": "https://example.com/pothole.jpg",
+      "status": "RESOLVED",
+      "duplicate_of": null,
+      "created_at": "2026-09-29T19:01:47.91086+00:00",
+      "updated_at": "2026-09-29T19:02:38.534966+00:00",
+      "citizen_id": null
+    },
+    {
+      "id": "f47a8f87-f33c-4d48-abaf-ad07ee5aa3e4",
+      "report_id": "NGD-2026-00120",
+      "problem_type": "pothole",
+      "confidence": 0.95,
+      "severity": "HIGH",
+      "evidence": [
+        "deep asphalt crater"
+      ],
+      "latitude": 23.2355,
+      "longitude": 77.432,
+      "location_name": "Hamidia Road, Bhopal",
+      "department": "Municipal Roads (PWD)",
+      "description": "Hazardous road crater causing traffic disruption",
+      "image_url": "https://example.com/pothole.jpg",
+      "status": "RESOLVED",
+      "duplicate_of": "NGD-2026-00119",
+      "created_at": "2026-09-29T19:02:34.591237+00:00",
+      "updated_at": "2026-09-29T19:03:15.763637+00:00",
+      "citizen_id": null
+    },
+    {
+      "id": "98836a2a-4093-4c59-ae1e-b41993b09c03",
+      "report_id": "NGD-2026-00122",
+      "problem_type": "pothole",
+      "confidence": 0.95,
+      "severity": "HIGH",
+      "evidence": [
+        "deep asphalt crater"
+      ],
+      "latitude": 23.2355,
+      "longitude": 77.432,
+      "location_name": "Hamidia Road, Bhopal",
+      "department": "Municipal Roads (PWD)",
+      "description": "Hazardous road crater causing traffic disruption",
+      "image_url": "https://example.com/pothole.jpg",
+      "status": "RESOLVED",
+      "duplicate_of": "NGD-2026-00121",
+      "created_at": "2026-09-29T19:07:53.653676+00:00",
+      "updated_at": "2026-09-29T19:17:04.108278+00:00",
+      "citizen_id": null
+    },
+    {
+      "id": "8ed94a85-3e79-4663-a688-1b48a9ade63b",
+      "report_id": "NGD-2026-00123",
+      "problem_type": "pothole",
+      "confidence": 0.95,
+      "severity": "HIGH",
+      "evidence": [
+        "deep asphalt crater"
+      ],
+      "latitude": 23.2355,
+      "longitude": 77.432,
+      "location_name": "Hamidia Road, Bhopal",
+      "department": "Municipal Roads (PWD)",
+      "description": "Hazardous road crater causing traffic disruption",
+      "image_url": "https://example.com/pothole.jpg",
+      "status": "RESOLVED",
+      "duplicate_of": "NGD-2026-00122",
+      "created_at": "2026-09-29T19:16:59.488566+00:00",
+      "updated_at": "2026-09-29T19:59:21.507114+00:00",
+      "citizen_id": null
+    },
+    {
+      "id": "1b7cac19-da1e-4b0f-82a7-4b72730df243",
+      "report_id": "NGD-2026-00124",
+      "problem_type": "pothole",
+      "confidence": 0.95,
+      "severity": "HIGH",
+      "evidence": [
+        "deep asphalt crater"
+      ],
+      "latitude": 23.2355,
+      "longitude": 77.432,
+      "location_name": "Hamidia Road, Bhopal",
+      "department": "Municipal Roads (PWD)",
+      "description": "Hazardous road crater causing traffic disruption",
+      "image_url": "https://example.com/pothole.jpg",
+      "status": "RESOLVED",
+      "duplicate_of": "NGD-2026-00123",
+      "created_at": "2026-09-29T19:59:16.623855+00:00",
+      "updated_at": "2026-09-29T19:59:22.715209+00:00",
+      "citizen_id": null
+    },
+    {
+      "id": "426a460e-6295-45b7-a8eb-22ef35d8cba8",
+      "report_id": "NGD-2026-00114",
+      "problem_type": "pothole",
+      "confidence": 0.98,
+      "severity": "HIGH",
+      "evidence": [
+        "Large depression in the asphalt road surface",
+        "Standing water accumulated inside the crater",
+        "Rough, broken edges surrounding the hole"
+      ],
+      "latitude": 23.2599,
+      "longitude": 77.4126,
+      "location_name": "Bhopal, Madhya Pradesh",
+      "department": "Municipal Roads",
+      "description": "",
+      "image_url": "/api/complaints/image/89a6c5cc067341ffb0b21b0a4c3c09c1.png",
+      "status": "RESOLVED",
+      "duplicate_of": "NGD-2026-00113",
+      "created_at": "2026-09-29T17:49:01.181243+00:00",
+      "updated_at": "2026-09-29T18:48:45.988217+00:00",
+      "citizen_id": "99018dec-1347-42f4-afbe-d3b19e5b119a"
+    }
+  ],
+  "local": [
+    {
+      "id": "1b7cac19-da1e-4b0f-82a7-4b72730df243",
+      "report_id": "NGD-2026-00124",
+      "problem_type": "pothole",
+      "confidence": 0.95,
+      "severity": "HIGH",
+      "evidence": [
+        "deep asphalt crater"
+      ],
+      "latitude": 23.2355,
+      "longitude": 77.432,
+      "location_name": "Hamidia Road, Bhopal",
+      "department": "Municipal Roads (PWD)",
+      "description": "Hazardous road crater causing traffic disruption",
+      "image_url": "https://example.com/pothole.jpg",
+      "status": "RESOLVED",
+      "duplicate_of": "NGD-2026-00123",
+      "created_at": "2026-09-29T19:59:16.623855+00:00",
+      "updated_at": "2026-09-29T19:59:22.715209+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": "PENDING",
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-29T19:59:16.623855+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-29T19:59:16.623855+00:00",
+          "note": "Pothole detected (95% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-29T19:59:16.623855+00:00",
+          "note": "Assigned to Municipal Roads (PWD)",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        },
+        {
+          "status": "IN_PROGRESS",
+          "timestamp": "2026-09-29T19:59:22.715209+00:00",
+          "note": "Repair squad dispatched and work started on-site",
+          "actor": "Field Maintenance Squad",
+          "actor_role": "authority"
+        },
+        {
+          "status": "RESOLVED",
+          "timestamp": "2026-09-29T19:59:22.715209+00:00",
+          "note": "Defect rectified and resolution evidence uploaded",
+          "actor": "Municipal Authority Officer",
+          "actor_role": "authority"
+        },
+        {
+          "status": "CITIZEN_VERIFICATION_PENDING",
+          "timestamp": "2026-09-29T19:59:22.715209+00:00",
+          "note": "Pending citizen verification",
+          "actor": "Citizen Verification Cell",
+          "actor_role": "system"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "8ed94a85-3e79-4663-a688-1b48a9ade63b",
+      "report_id": "NGD-2026-00123",
+      "problem_type": "pothole",
+      "confidence": 0.95,
+      "severity": "HIGH",
+      "evidence": [
+        "deep asphalt crater"
+      ],
+      "latitude": 23.2355,
+      "longitude": 77.432,
+      "location_name": "Hamidia Road, Bhopal",
+      "department": "Municipal Roads (PWD)",
+      "description": "Hazardous road crater causing traffic disruption",
+      "image_url": "https://example.com/pothole.jpg",
+      "status": "RESOLVED",
+      "duplicate_of": "NGD-2026-00122",
+      "created_at": "2026-09-29T19:16:59.488566+00:00",
+      "updated_at": "2026-09-29T19:59:21.507114+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": "PENDING",
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-29T19:16:59.488566+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-29T19:16:59.488566+00:00",
+          "note": "Pothole detected (95% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-29T19:16:59.488566+00:00",
+          "note": "Assigned to Municipal Roads (PWD)",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        },
+        {
+          "status": "IN_PROGRESS",
+          "timestamp": "2026-09-29T19:59:21.507114+00:00",
+          "note": "Repair squad dispatched and work started on-site",
+          "actor": "Field Maintenance Squad",
+          "actor_role": "authority"
+        },
+        {
+          "status": "RESOLVED",
+          "timestamp": "2026-09-29T19:59:21.507114+00:00",
+          "note": "Defect rectified and resolution evidence uploaded",
+          "actor": "Municipal Authority Officer",
+          "actor_role": "authority"
+        },
+        {
+          "status": "CITIZEN_VERIFICATION_PENDING",
+          "timestamp": "2026-09-29T19:59:21.507114+00:00",
+          "note": "Pending citizen verification",
+          "actor": "Citizen Verification Cell",
+          "actor_role": "system"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "98836a2a-4093-4c59-ae1e-b41993b09c03",
+      "report_id": "NGD-2026-00122",
+      "problem_type": "pothole",
+      "confidence": 0.95,
+      "severity": "HIGH",
+      "evidence": [
+        "deep asphalt crater"
+      ],
+      "latitude": 23.2355,
+      "longitude": 77.432,
+      "location_name": "Hamidia Road, Bhopal",
+      "department": "Municipal Roads (PWD)",
+      "description": "Hazardous road crater causing traffic disruption",
+      "image_url": "https://example.com/pothole.jpg",
+      "status": "RESOLVED",
+      "duplicate_of": "NGD-2026-00121",
+      "created_at": "2026-09-29T19:07:53.653676+00:00",
+      "updated_at": "2026-09-29T19:17:04.108278+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": "PENDING",
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-29T19:07:53.653676+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-29T19:07:53.653676+00:00",
+          "note": "Pothole detected (95% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-29T19:07:53.653676+00:00",
+          "note": "Assigned to Municipal Roads (PWD)",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        },
+        {
+          "status": "IN_PROGRESS",
+          "timestamp": "2026-09-29T19:17:04.108278+00:00",
+          "note": "Repair squad dispatched and work started on-site",
+          "actor": "Field Maintenance Squad",
+          "actor_role": "authority"
+        },
+        {
+          "status": "RESOLVED",
+          "timestamp": "2026-09-29T19:17:04.108278+00:00",
+          "note": "Defect rectified and resolution evidence uploaded",
+          "actor": "Municipal Authority Officer",
+          "actor_role": "authority"
+        },
+        {
+          "status": "CITIZEN_VERIFICATION_PENDING",
+          "timestamp": "2026-09-29T19:17:04.108278+00:00",
+          "note": "Pending citizen verification",
+          "actor": "Citizen Verification Cell",
+          "actor_role": "system"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "3030cf6d-c3fd-4b95-b2c4-c3798f514f81",
+      "report_id": "NGD-2026-00121",
+      "problem_type": "pothole",
+      "confidence": 0.95,
+      "severity": "HIGH",
+      "evidence": [
+        "deep asphalt crater"
+      ],
+      "latitude": 23.2355,
+      "longitude": 77.432,
+      "location_name": "Hamidia Road, Bhopal",
+      "department": "Municipal Roads (PWD)",
+      "description": "Hazardous road crater causing traffic disruption",
+      "image_url": "https://example.com/pothole.jpg",
+      "status": "RESOLVED",
+      "duplicate_of": "NGD-2026-00120",
+      "created_at": "2026-09-29T19:03:11.739595+00:00",
+      "updated_at": "2026-09-29T19:07:57.64345+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": "PENDING",
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-29T19:03:11.739595+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-29T19:03:11.739595+00:00",
+          "note": "Pothole detected (95% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-29T19:03:11.739595+00:00",
+          "note": "Assigned to Municipal Roads (PWD)",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        },
+        {
+          "status": "IN_PROGRESS",
+          "timestamp": "2026-09-29T19:07:57.64345+00:00",
+          "note": "Repair squad dispatched and work started on-site",
+          "actor": "Field Maintenance Squad",
+          "actor_role": "authority"
+        },
+        {
+          "status": "RESOLVED",
+          "timestamp": "2026-09-29T19:07:57.64345+00:00",
+          "note": "Defect rectified and resolution evidence uploaded",
+          "actor": "Municipal Authority Officer",
+          "actor_role": "authority"
+        },
+        {
+          "status": "CITIZEN_VERIFICATION_PENDING",
+          "timestamp": "2026-09-29T19:07:57.64345+00:00",
+          "note": "Pending citizen verification",
+          "actor": "Citizen Verification Cell",
+          "actor_role": "system"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "f47a8f87-f33c-4d48-abaf-ad07ee5aa3e4",
+      "report_id": "NGD-2026-00120",
+      "problem_type": "pothole",
+      "confidence": 0.95,
+      "severity": "HIGH",
+      "evidence": [
+        "deep asphalt crater"
+      ],
+      "latitude": 23.2355,
+      "longitude": 77.432,
+      "location_name": "Hamidia Road, Bhopal",
+      "department": "Municipal Roads (PWD)",
+      "description": "Hazardous road crater causing traffic disruption",
+      "image_url": "https://example.com/pothole.jpg",
+      "status": "RESOLVED",
+      "duplicate_of": "NGD-2026-00119",
+      "created_at": "2026-09-29T19:02:34.591237+00:00",
+      "updated_at": "2026-09-29T19:03:15.763637+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": "PENDING",
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-29T19:02:34.591237+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-29T19:02:34.591237+00:00",
+          "note": "Pothole detected (95% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-29T19:02:34.591237+00:00",
+          "note": "Assigned to Municipal Roads (PWD)",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        },
+        {
+          "status": "IN_PROGRESS",
+          "timestamp": "2026-09-29T19:03:15.763637+00:00",
+          "note": "Repair squad dispatched and work started on-site",
+          "actor": "Field Maintenance Squad",
+          "actor_role": "authority"
+        },
+        {
+          "status": "RESOLVED",
+          "timestamp": "2026-09-29T19:03:15.763637+00:00",
+          "note": "Defect rectified and resolution evidence uploaded",
+          "actor": "Municipal Authority Officer",
+          "actor_role": "authority"
+        },
+        {
+          "status": "CITIZEN_VERIFICATION_PENDING",
+          "timestamp": "2026-09-29T19:03:15.763637+00:00",
+          "note": "Pending citizen verification",
+          "actor": "Citizen Verification Cell",
+          "actor_role": "system"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "a4c1550e-06cf-46f8-8a87-e6c82da4fbf9",
+      "report_id": "NGD-2026-00119",
+      "problem_type": "pothole",
+      "confidence": 0.95,
+      "severity": "HIGH",
+      "evidence": [
+        "deep asphalt crater"
+      ],
+      "latitude": 23.2355,
+      "longitude": 77.432,
+      "location_name": "Hamidia Road, Bhopal",
+      "department": "Municipal Roads (PWD)",
+      "description": "Hazardous road crater causing traffic disruption",
+      "image_url": "https://example.com/pothole.jpg",
+      "status": "RESOLVED",
+      "duplicate_of": null,
+      "created_at": "2026-09-29T19:01:47.91086+00:00",
+      "updated_at": "2026-09-29T19:02:38.534966+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": "PENDING",
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-29T19:01:47.91086+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-29T19:01:47.91086+00:00",
+          "note": "Pothole detected (95% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-29T19:01:47.91086+00:00",
+          "note": "Assigned to Municipal Roads (PWD)",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        },
+        {
+          "status": "IN_PROGRESS",
+          "timestamp": "2026-09-29T19:02:38.534966+00:00",
+          "note": "Repair squad dispatched and work started on-site",
+          "actor": "Field Maintenance Squad",
+          "actor_role": "authority"
+        },
+        {
+          "status": "RESOLVED",
+          "timestamp": "2026-09-29T19:02:38.534966+00:00",
+          "note": "Defect rectified and resolution evidence uploaded",
+          "actor": "Municipal Authority Officer",
+          "actor_role": "authority"
+        },
+        {
+          "status": "CITIZEN_VERIFICATION_PENDING",
+          "timestamp": "2026-09-29T19:02:38.534966+00:00",
+          "note": "Pending citizen verification",
+          "actor": "Citizen Verification Cell",
+          "actor_role": "system"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "426a460e-6295-45b7-a8eb-22ef35d8cba8",
+      "report_id": "NGD-2026-00114",
+      "problem_type": "pothole",
+      "confidence": 0.98,
+      "severity": "HIGH",
+      "evidence": [
+        "Large depression in the asphalt road surface",
+        "Standing water accumulated inside the crater",
+        "Rough, broken edges surrounding the hole"
+      ],
+      "latitude": 23.2599,
+      "longitude": 77.4126,
+      "location_name": "Bhopal, Madhya Pradesh",
+      "department": "Municipal Roads",
+      "description": "",
+      "image_url": "/api/complaints/image/89a6c5cc067341ffb0b21b0a4c3c09c1.png",
+      "status": "RESOLVED",
+      "duplicate_of": "NGD-2026-00113",
+      "created_at": "2026-09-29T17:49:01.181243+00:00",
+      "updated_at": "2026-09-29T18:48:45.988217+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": "PENDING",
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-29T17:49:01.181243+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-29T17:49:01.181243+00:00",
+          "note": "Pothole detected (98% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-29T17:49:01.181243+00:00",
+          "note": "Assigned to Municipal Roads",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        },
+        {
+          "status": "IN_PROGRESS",
+          "timestamp": "2026-09-29T18:48:45.988217+00:00",
+          "note": "Repair squad dispatched and work started on-site",
+          "actor": "Field Maintenance Squad",
+          "actor_role": "authority"
+        },
+        {
+          "status": "RESOLVED",
+          "timestamp": "2026-09-29T18:48:45.988217+00:00",
+          "note": "Defect rectified and resolution evidence uploaded",
+          "actor": "Municipal Authority Officer",
+          "actor_role": "authority"
+        },
+        {
+          "status": "CITIZEN_VERIFICATION_PENDING",
+          "timestamp": "2026-09-29T18:48:45.988217+00:00",
+          "note": "Pending citizen verification",
+          "actor": "Citizen Verification Cell",
+          "actor_role": "system"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "e926721b-21a0-42e6-9d07-3e219ed3e3c9",
+      "report_id": "NGD-2026-00053",
+      "problem_type": "drain",
+      "confidence": 0.92,
+      "severity": "MEDIUM",
+      "evidence": [
+        "Clogged and debris-covered stormwater drainage grating on the roadside",
+        "Litter and leaves accumulated inside and around the drainage grate"
+      ],
+      "latitude": 23.2599,
+      "longitude": 77.4126,
+      "location_name": "Bhopal, Madhya Pradesh",
+      "department": "Drainage / Sanitation",
+      "description": "",
+      "image_url": "/api/complaints/image/b5c193670d2f474a87b1d42259f8e64e.jpg",
+      "status": "RESOLVED",
+      "duplicate_of": null,
+      "created_at": "2026-09-29T16:50:43.166623+00:00",
+      "updated_at": "2026-09-29T17:44:55.396042+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": "PENDING",
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-29T16:50:43.166623+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-29T16:50:43.166623+00:00",
+          "note": "Drain detected (92% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-29T16:50:43.166623+00:00",
+          "note": "Assigned to Drainage / Sanitation",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        },
+        {
+          "status": "IN_PROGRESS",
+          "timestamp": "2026-09-29T17:44:55.396042+00:00",
+          "note": "Repair squad dispatched and work started on-site",
+          "actor": "Field Maintenance Squad",
+          "actor_role": "authority"
+        },
+        {
+          "status": "RESOLVED",
+          "timestamp": "2026-09-29T17:44:55.396042+00:00",
+          "note": "Defect rectified and resolution evidence uploaded",
+          "actor": "Municipal Authority Officer",
+          "actor_role": "authority"
+        },
+        {
+          "status": "CITIZEN_VERIFICATION_PENDING",
+          "timestamp": "2026-09-29T17:44:55.396042+00:00",
+          "note": "Pending citizen verification",
+          "actor": "Citizen Verification Cell",
+          "actor_role": "system"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "79bd0b37-7f62-4c7f-8ed3-d74953bb6c26",
+      "report_id": "NGD-2026-00001",
+      "problem_type": "drain",
+      "confidence": 0.95,
+      "severity": "MEDIUM",
+      "evidence": [
+        "Open concrete drainage box with standing dark wastewater",
+        "Accumulated sludge, grime, and debris clogging the drainage channel",
+        "Partially displaced concrete cover exposing the contaminated drain"
+      ],
+      "latitude": 28.6139,
+      "longitude": 77.209,
+      "location_name": "Connaught Place, New Delhi",
+      "department": "Drainage / Sanitation",
+      "description": "",
+      "image_url": "/api/complaints/image/1602dd23262c412fa82e5157847d9f9e.jpg",
+      "status": "RESOLVED",
+      "duplicate_of": null,
+      "created_at": "2026-09-29T10:27:22.825648+00:00",
+      "updated_at": "2026-09-29T17:43:35.496311+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": "PENDING",
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-29T10:27:22.825648+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-29T10:27:22.825648+00:00",
+          "note": "Drain detected (95% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-29T10:27:22.825648+00:00",
+          "note": "Assigned to Drainage / Sanitation",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        },
+        {
+          "status": "IN_PROGRESS",
+          "timestamp": "2026-09-29T17:43:35.496311+00:00",
+          "note": "Repair squad dispatched and work started on-site",
+          "actor": "Field Maintenance Squad",
+          "actor_role": "authority"
+        },
+        {
+          "status": "RESOLVED",
+          "timestamp": "2026-09-29T17:43:35.496311+00:00",
+          "note": "Defect rectified and resolution evidence uploaded",
+          "actor": "Municipal Authority Officer",
+          "actor_role": "authority"
+        },
+        {
+          "status": "CITIZEN_VERIFICATION_PENDING",
+          "timestamp": "2026-09-29T17:43:35.496311+00:00",
+          "note": "Pending citizen verification",
+          "actor": "Citizen Verification Cell",
+          "actor_role": "system"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "c001",
+      "report_id": "NGD-2026-00101",
+      "problem_type": "pothole",
+      "confidence": 0.94,
+      "severity": "HIGH",
+      "evidence": [
+        "Large cavity visible in active road lane",
+        "Cracked asphalt with water pooling"
+      ],
+      "latitude": 28.6315,
+      "longitude": 77.2167,
+      "location_name": "Connaught Place Outer Circle near Radial 2",
+      "department": "Municipal Roads (PWD)",
+      "description": "Hazardous pothole causing two-wheeler skids near metro gate.",
+      "image_url": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=800&auto=format&fit=crop&q=60",
+      "status": "ASSIGNED",
+      "duplicate_of": null,
+      "created_at": "2026-09-28T01:17:33.920091+00:00",
+      "updated_at": "2026-09-28T03:17:33.920091+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": null,
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-28T01:17:33.920091+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-28T01:17:33.920091+00:00",
+          "note": "Pothole detected (94% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-28T01:17:33.920091+00:00",
+          "note": "Assigned to Municipal Roads (PWD)",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": "Officer Sharma (Road Unit)",
+      "assigned_at": "2026-09-28T03:17:33.920091+00:00",
+      "assignment_history": [
+        {
+          "id": "asg-seed-001",
+          "previous_department": null,
+          "new_department": "Municipal Roads (PWD)",
+          "previous_assignee": null,
+          "new_assignee": "Officer Sharma (Road Unit)",
+          "changed_by": "Chief Zonal Engineer",
+          "timestamp": "2026-09-28T03:17:33.920091+00:00",
+          "note": "Assigned to central night repair unit for asphalt milling"
+        }
+      ],
+      "internal_notes": [
+        {
+          "id": "note-seed-001",
+          "complaint_id": "NGD-2026-00101",
+          "note": "Field inspection completed. Hot-mix asphalt truck requisitioned for night shift.",
+          "author": "Officer Sharma",
+          "author_role": "authority",
+          "timestamp": "2026-09-28T23:17:33.920091+00:00"
+        }
+      ],
+      "status_update_requests": []
+    },
+    {
+      "id": "c005",
+      "report_id": "NGD-2026-00105",
+      "problem_type": "pothole",
+      "confidence": 0.82,
+      "severity": "MEDIUM",
+      "evidence": [
+        "Asphalt wear and shallow road rutting"
+      ],
+      "latitude": 28.6322,
+      "longitude": 77.2175,
+      "location_name": "Near Shivaji Stadium Terminal",
+      "department": "Municipal Roads (PWD)",
+      "description": "Road surface cracking and minor pothole developing.",
+      "image_url": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=800&auto=format&fit=crop&q=60",
+      "status": "RESOLVED",
+      "duplicate_of": null,
+      "created_at": "2026-09-25T23:17:33.920091+00:00",
+      "updated_at": "2026-09-30T03:17:33.920091+00:00",
+      "resolution_image_url": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&auto=format&fit=crop&q=60",
+      "resolution_image_path": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&auto=format&fit=crop&q=60",
+      "resolution_note": "Cold asphalt mix compacted and steam rolled across 4 sq meters to level road surface.",
+      "resolved_at": "2026-09-30T03:17:33.920091+00:00",
+      "resolved_by": "Municipal Roads (PWD Officer)",
+      "citizen_verification_status": "PENDING",
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": false,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-25T23:17:33.920091+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-25T23:17:33.920091+00:00",
+          "note": "Pothole detected (82% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-25T23:17:33.920091+00:00",
+          "note": "Assigned to Municipal Roads (PWD)",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        },
+        {
+          "status": "IN_PROGRESS",
+          "timestamp": "2026-09-30T03:17:33.920091+00:00",
+          "note": "Repair squad dispatched and work started on-site",
+          "actor": "Municipal Roads (PWD Officer)",
+          "actor_role": "authority"
+        },
+        {
+          "status": "RESOLVED",
+          "timestamp": "2026-09-30T03:17:33.920091+00:00",
+          "note": "Cold asphalt mix compacted and steam rolled across 4 sq meters to level road surface.",
+          "actor": "Municipal Roads (PWD Officer)",
+          "actor_role": "authority"
+        },
+        {
+          "status": "CITIZEN_VERIFICATION_PENDING",
+          "timestamp": "2026-09-30T03:17:33.920091+00:00",
+          "note": "Pending citizen verification",
+          "actor": "Citizen Verification Cell",
+          "actor_role": "system"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "c008",
+      "report_id": "NGD-2026-00108",
+      "problem_type": "pothole",
+      "confidence": 0.91,
+      "severity": "CRITICAL",
+      "evidence": [
+        "Deep road collapse cave-in exposing base gravel",
+        "Severe vehicular obstruction"
+      ],
+      "latitude": 28.631,
+      "longitude": 77.216,
+      "location_name": "Radial Road 3, Connaught Place",
+      "department": "Municipal Roads (PWD)",
+      "description": "Cave-in on inner lane, traffic backed up.",
+      "image_url": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=800&auto=format&fit=crop&q=60",
+      "status": "IN_PROGRESS",
+      "duplicate_of": null,
+      "created_at": "2026-09-29T21:17:33.920091+00:00",
+      "updated_at": "2026-10-01T01:17:33.920091+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": null,
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-29T21:17:33.920091+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-29T21:17:33.920091+00:00",
+          "note": "Pothole detected (91% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-29T21:17:33.920091+00:00",
+          "note": "Assigned to Municipal Roads (PWD)",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        },
+        {
+          "status": "IN_PROGRESS",
+          "timestamp": "2026-10-01T01:17:33.920091+00:00",
+          "note": "Repair squad dispatched and work started on-site",
+          "actor": "Field Maintenance Squad",
+          "actor_role": "authority"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "c009",
+      "report_id": "NGD-2026-00109",
+      "problem_type": "pothole",
+      "confidence": 0.93,
+      "severity": "HIGH",
+      "evidence": [
+        "Cavity in road lane matching recent report"
+      ],
+      "latitude": 28.6316,
+      "longitude": 77.2168,
+      "location_name": "Connaught Place Outer Circle, Metro Gate 4",
+      "department": "Municipal Roads (PWD)",
+      "description": "Duplicate report submitted by nearby pedestrian.",
+      "image_url": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=800&auto=format&fit=crop&q=60",
+      "status": "REPORTED",
+      "duplicate_of": "NGD-2026-00101",
+      "created_at": "2026-10-01T02:17:33.920091+00:00",
+      "updated_at": "2026-10-01T02:17:33.920091+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": null,
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-10-01T02:17:33.920091+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-10-01T02:17:33.920091+00:00",
+          "note": "Pothole detected (93% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-10-01T02:17:33.920091+00:00",
+          "note": "Assigned to Municipal Roads (PWD)",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "c002",
+      "report_id": "NGD-2026-00102",
+      "problem_type": "garbage",
+      "confidence": 0.91,
+      "severity": "CRITICAL",
+      "evidence": [
+        "Solid waste accumulation blocking entire pedestrian pavement",
+        "Overflowing open municipal bin"
+      ],
+      "latitude": 28.652,
+      "longitude": 77.1905,
+      "location_name": "Ajmal Khan Road Market, Karol Bagh",
+      "department": "MCD Sanitation & Solid Waste",
+      "description": "Severe stench and pedestrian pathway completely obstructed.",
+      "image_url": "https://images.unsplash.com/photo-1605600659908-0ef719419d41?w=800&auto=format&fit=crop&q=60",
+      "status": "ASSIGNED",
+      "duplicate_of": null,
+      "created_at": "2026-09-27T03:17:33.920091+00:00",
+      "updated_at": "2026-09-29T04:17:33.920091+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": null,
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-27T03:17:33.920091+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-27T03:17:33.920091+00:00",
+          "note": "Garbage detected (91% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-27T03:17:33.920091+00:00",
+          "note": "Assigned to MCD Sanitation & Solid Waste",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "c010",
+      "report_id": "NGD-2026-00110",
+      "problem_type": "garbage",
+      "confidence": 0.89,
+      "severity": "HIGH",
+      "evidence": [
+        "Debris pile spilling onto main commercial road",
+        "Scattered organic waste"
+      ],
+      "latitude": 28.6532,
+      "longitude": 77.1912,
+      "location_name": "Arya Samaj Road crossing, Karol Bagh",
+      "department": "MCD Sanitation & Solid Waste",
+      "description": "Commercial waste dumped overnight near vegetable market.",
+      "image_url": "https://images.unsplash.com/photo-1605600659908-0ef719419d41?w=800&auto=format&fit=crop&q=60",
+      "status": "REPORTED",
+      "duplicate_of": null,
+      "created_at": "2026-09-29T00:17:33.920091+00:00",
+      "updated_at": "2026-09-29T00:17:33.920091+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": null,
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-29T00:17:33.920091+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-29T00:17:33.920091+00:00",
+          "note": "Garbage detected (89% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-29T00:17:33.920091+00:00",
+          "note": "Assigned to MCD Sanitation & Solid Waste",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "c011",
+      "report_id": "NGD-2026-00111",
+      "problem_type": "garbage",
+      "confidence": 0.85,
+      "severity": "MEDIUM",
+      "evidence": [
+        "Accumulated packaging waste outside electronics shops"
+      ],
+      "latitude": 28.6515,
+      "longitude": 77.1895,
+      "location_name": "Gaffar Market Entry Gate, Karol Bagh",
+      "department": "MCD Sanitation & Solid Waste",
+      "description": "Cardboard and plastic bags piling up.",
+      "image_url": "https://images.unsplash.com/photo-1605600659908-0ef719419d41?w=800&auto=format&fit=crop&q=60",
+      "status": "IN_PROGRESS",
+      "duplicate_of": null,
+      "created_at": "2026-09-27T22:17:33.920091+00:00",
+      "updated_at": "2026-10-01T00:17:33.920091+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": null,
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-27T22:17:33.920091+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-27T22:17:33.920091+00:00",
+          "note": "Garbage detected (85% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-27T22:17:33.920091+00:00",
+          "note": "Assigned to MCD Sanitation & Solid Waste",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        },
+        {
+          "status": "IN_PROGRESS",
+          "timestamp": "2026-10-01T00:17:33.920091+00:00",
+          "note": "Repair squad dispatched and work started on-site",
+          "actor": "Field Maintenance Squad",
+          "actor_role": "authority"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "c003",
+      "report_id": "NGD-2026-00103",
+      "problem_type": "streetlight",
+      "confidence": 0.88,
+      "severity": "MEDIUM",
+      "evidence": [
+        "Damaged light fixture head hanging unlit",
+        "Pole bent slightly at base"
+      ],
+      "latitude": 28.628,
+      "longitude": 77.206,
+      "location_name": "Gole Market Road, Sector 4",
+      "department": "BSES / Municipal Street Lighting Cell",
+      "description": "Dark spot on road during night, posing safety hazard for pedestrians.",
+      "image_url": "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800&auto=format&fit=crop&q=60",
+      "status": "IN_PROGRESS",
+      "duplicate_of": null,
+      "created_at": "2026-09-26T20:17:33.920091+00:00",
+      "updated_at": "2026-09-30T01:17:33.920091+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": null,
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-26T20:17:33.920091+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-26T20:17:33.920091+00:00",
+          "note": "Streetlight detected (88% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-26T20:17:33.920091+00:00",
+          "note": "Assigned to BSES / Municipal Street Lighting Cell",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        },
+        {
+          "status": "IN_PROGRESS",
+          "timestamp": "2026-09-30T01:17:33.920091+00:00",
+          "note": "Repair squad dispatched and work started on-site",
+          "actor": "Field Maintenance Squad",
+          "actor_role": "authority"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "c012",
+      "report_id": "NGD-2026-00112",
+      "problem_type": "streetlight",
+      "confidence": 0.92,
+      "severity": "HIGH",
+      "evidence": [
+        "Streetlight lamp shattered with loose dangling wires"
+      ],
+      "latitude": 28.6292,
+      "longitude": 77.205,
+      "location_name": "Bhai Veer Singh Marg, Gole Market",
+      "department": "BSES / Municipal Street Lighting Cell",
+      "description": "Three consecutive light poles dark at school crossing.",
+      "image_url": "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800&auto=format&fit=crop&q=60",
+      "status": "REPORTED",
+      "duplicate_of": null,
+      "created_at": "2026-09-30T02:17:33.920091+00:00",
+      "updated_at": "2026-09-30T02:17:33.920091+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": null,
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-30T02:17:33.920091+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-30T02:17:33.920091+00:00",
+          "note": "Streetlight detected (92% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-30T02:17:33.920091+00:00",
+          "note": "Assigned to BSES / Municipal Street Lighting Cell",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "c013",
+      "report_id": "NGD-2026-00113",
+      "problem_type": "streetlight",
+      "confidence": 0.95,
+      "severity": "CRITICAL",
+      "evidence": [
+        "Pole bent at 45 degree angle across sidewalk",
+        "Live electrical wiring visible"
+      ],
+      "latitude": 28.6275,
+      "longitude": 77.207,
+      "location_name": "Peshwa Road Junction, Gole Market",
+      "department": "BSES / Municipal Street Lighting Cell",
+      "description": "Accident vehicle struck pole, sparks reported during rainfall.",
+      "image_url": "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800&auto=format&fit=crop&q=60",
+      "status": "ASSIGNED",
+      "duplicate_of": null,
+      "created_at": "2026-09-30T23:17:33.920091+00:00",
+      "updated_at": "2026-10-01T03:17:33.920091+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": null,
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-30T23:17:33.920091+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-30T23:17:33.920091+00:00",
+          "note": "Streetlight detected (95% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-30T23:17:33.920091+00:00",
+          "note": "Assigned to BSES / Municipal Street Lighting Cell",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "c004",
+      "report_id": "NGD-2026-00104",
+      "problem_type": "drain",
+      "confidence": 0.95,
+      "severity": "HIGH",
+      "evidence": [
+        "Open stormwater gutter overflowing onto road surface",
+        "Debris clogging inlet grate"
+      ],
+      "latitude": 28.6185,
+      "longitude": 77.221,
+      "location_name": "Janpath Lane near Central Cottage",
+      "department": "Delhi Jal Board (DJB)",
+      "description": "Foul drain water spilling over the asphalt.",
+      "image_url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?w=800&auto=format&fit=crop&q=60",
+      "status": "REPORTED",
+      "duplicate_of": null,
+      "created_at": "2026-09-28T21:17:33.920091+00:00",
+      "updated_at": "2026-09-28T21:17:33.920091+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": null,
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-28T21:17:33.920091+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-28T21:17:33.920091+00:00",
+          "note": "Drain detected (95% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-28T21:17:33.920091+00:00",
+          "note": "Assigned to Delhi Jal Board (DJB)",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "c015",
+      "report_id": "NGD-2026-00115",
+      "problem_type": "drain",
+      "confidence": 0.81,
+      "severity": "LOW",
+      "evidence": [
+        "Minor curb runoff pooling near storm grate"
+      ],
+      "latitude": 28.6178,
+      "longitude": 77.2198,
+      "location_name": "Windsor Place Roundabout, Janpath",
+      "department": "Delhi Jal Board (DJB)",
+      "description": "Drain grate cleaned and water receding.",
+      "image_url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?w=800&auto=format&fit=crop&q=60",
+      "status": "RESOLVED",
+      "duplicate_of": null,
+      "created_at": "2026-09-25T01:17:33.920091+00:00",
+      "updated_at": "2026-09-29T17:17:33.920091+00:00",
+      "resolution_image_url": "https://images.unsplash.com/photo-1584467735871-8e85353a8413?w=800&auto=format&fit=crop&q=60",
+      "resolution_image_path": "https://images.unsplash.com/photo-1584467735871-8e85353a8413?w=800&auto=format&fit=crop&q=60",
+      "resolution_note": "Stormwater grating desilted, solid trash cleared and drain flushing completed.",
+      "resolved_at": "2026-09-29T03:17:33.920091+00:00",
+      "resolved_by": "Delhi Jal Board Zonal Super",
+      "citizen_verification_status": "CONFIRMED",
+      "citizen_resolution_confirmed": true,
+      "citizen_resolution_confirmed_at": "2026-09-29T17:17:33.920091+00:00",
+      "citizen_verified_at": "2026-09-29T17:17:33.920091+00:00",
+      "citizen_reopened": false,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-25T01:17:33.920091+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-25T01:17:33.920091+00:00",
+          "note": "Drain detected (81% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-25T01:17:33.920091+00:00",
+          "note": "Assigned to Delhi Jal Board (DJB)",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        },
+        {
+          "status": "IN_PROGRESS",
+          "timestamp": "2026-09-29T17:17:33.920091+00:00",
+          "note": "Repair squad dispatched and work started on-site",
+          "actor": "Delhi Jal Board Zonal Super",
+          "actor_role": "authority"
+        },
+        {
+          "status": "RESOLVED",
+          "timestamp": "2026-09-29T03:17:33.920091+00:00",
+          "note": "Stormwater grating desilted, solid trash cleared and drain flushing completed.",
+          "actor": "Delhi Jal Board Zonal Super",
+          "actor_role": "authority"
+        },
+        {
+          "status": "CITIZEN_CONFIRMED",
+          "timestamp": "2026-09-29T17:17:33.920091+00:00",
+          "note": "Citizen confirmed resolution",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "c016",
+      "report_id": "NGD-2026-00116",
+      "problem_type": "other",
+      "confidence": 0.76,
+      "severity": "LOW",
+      "evidence": [
+        "Damaged metal divider barricade on sidewalk boundary"
+      ],
+      "latitude": 28.625,
+      "longitude": 77.212,
+      "location_name": "Sansad Marg near Patel Chowk",
+      "department": "Delhi Traffic Police & Civic Oversight",
+      "description": "Barricade leaning into footpath.",
+      "image_url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?w=800&auto=format&fit=crop&q=60",
+      "status": "REPORTED",
+      "duplicate_of": null,
+      "created_at": "2026-10-01T04:17:33.920091+00:00",
+      "updated_at": "2026-10-01T04:17:33.920091+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": null,
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-10-01T04:17:33.920091+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-10-01T04:17:33.920091+00:00",
+          "note": "Other detected (76% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-10-01T04:17:33.920091+00:00",
+          "note": "Assigned to Delhi Traffic Police & Civic Oversight",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    },
+    {
+      "id": "c017",
+      "report_id": "NGD-2026-00117",
+      "problem_type": "pothole",
+      "confidence": 0.85,
+      "severity": "LOW",
+      "evidence": [
+        "Minor road surface crack repaved"
+      ],
+      "latitude": 28.631,
+      "longitude": 77.2162,
+      "location_name": "Connaught Place Inner Circle Radial 1",
+      "department": "Municipal Roads (PWD)",
+      "description": "Crack in road sealed by maintenance team.",
+      "image_url": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=800&auto=format&fit=crop&q=60",
+      "status": "REOPENED",
+      "duplicate_of": null,
+      "created_at": "2026-09-26T03:17:33.920091+00:00",
+      "updated_at": "2026-10-01T00:17:33.920091+00:00",
+      "resolution_image_url": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=800&auto=format&fit=crop&q=60",
+      "resolution_image_path": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=800&auto=format&fit=crop&q=60",
+      "resolution_note": "Crack in road sealed by municipal maintenance squad.",
+      "resolved_at": "2026-09-29T04:17:33.920091+00:00",
+      "resolved_by": "Municipal Roads (PWD Squad 4)",
+      "citizen_verification_status": "REOPENED",
+      "citizen_resolution_confirmed": false,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": true,
+      "citizen_reopened_at": "2026-10-01T00:17:33.920091+00:00",
+      "reopened_at": "2026-10-01T00:17:33.920091+00:00",
+      "reopen_reason": "The pothole is still present beside the repaired section.",
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-09-26T03:17:33.920091+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-09-26T03:17:33.920091+00:00",
+          "note": "Pothole detected (85% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-09-26T03:17:33.920091+00:00",
+          "note": "Assigned to Municipal Roads (PWD)",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        },
+        {
+          "status": "IN_PROGRESS",
+          "timestamp": "2026-10-01T00:17:33.920091+00:00",
+          "note": "Repair squad dispatched and work started on-site",
+          "actor": "Municipal Roads (PWD Squad 4)",
+          "actor_role": "authority"
+        },
+        {
+          "status": "RESOLVED",
+          "timestamp": "2026-09-29T04:17:33.920091+00:00",
+          "note": "Crack in road sealed by municipal maintenance squad.",
+          "actor": "Municipal Roads (PWD Squad 4)",
+          "actor_role": "authority"
+        },
+        {
+          "status": "REOPENED",
+          "timestamp": "2026-10-01T00:17:33.920091+00:00",
+          "note": "The pothole is still present beside the repaired section.",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": [
+        {
+          "id": "sur-seed-001",
+          "complaint_id": "NGD-2026-00117",
+          "report_id": "NGD-2026-00117",
+          "problem_type": "pothole",
+          "issue_type": "pothole",
+          "location_name": "Connaught Place Inner Circle Radial 1",
+          "current_status": "REOPENED",
+          "requested_at": "2026-10-01T02:17:33.920091+00:00",
+          "request_date": "2026-10-01T02:17:33.920091+00:00",
+          "citizen_message": "The pothole was marked repaired but gravel came loose again. Please expedite.",
+          "status": "OPEN",
+          "state": "OPEN",
+          "acknowledged_at": null,
+          "acknowledged_by": null,
+          "citizen_notified": false,
+          "response_note": null
+        }
+      ]
+    },
+    {
+      "id": "c018",
+      "report_id": "NGD-2026-00118",
+      "problem_type": "garbage",
+      "confidence": 0.92,
+      "severity": "HIGH",
+      "evidence": [
+        "Commercial waste pile spilling across alley"
+      ],
+      "latitude": 28.6472,
+      "longitude": 77.1915,
+      "location_name": "Ajmal Khan Market Back Alley, Karol Bagh",
+      "department": "MCD Sanitation & Solid Waste",
+      "description": "Urgent clearing needed for morning market access.",
+      "image_url": "https://images.unsplash.com/photo-1605600659908-0ef719419d41?w=800&auto=format&fit=crop&q=60",
+      "status": "REPORTED",
+      "duplicate_of": null,
+      "created_at": "2026-10-01T01:17:33.920091+00:00",
+      "updated_at": "2026-10-01T01:17:33.920091+00:00",
+      "resolution_image_url": null,
+      "resolution_image_path": null,
+      "resolution_note": null,
+      "resolved_at": null,
+      "resolved_by": null,
+      "citizen_verification_status": null,
+      "citizen_resolution_confirmed": null,
+      "citizen_resolution_confirmed_at": null,
+      "citizen_verified_at": null,
+      "citizen_reopened": null,
+      "citizen_reopened_at": null,
+      "reopened_at": null,
+      "reopen_reason": null,
+      "status_history": [
+        {
+          "status": "REPORTED",
+          "timestamp": "2026-10-01T01:17:33.920091+00:00",
+          "note": "Citizen submitted civic report",
+          "actor": "Citizen User",
+          "actor_role": "citizen"
+        },
+        {
+          "status": "AI_VERIFIED",
+          "timestamp": "2026-10-01T01:17:33.920091+00:00",
+          "note": "Garbage detected (92% vision confidence)",
+          "actor": "NagarDrishti Vision AI",
+          "actor_role": "ai"
+        },
+        {
+          "status": "ASSIGNED",
+          "timestamp": "2026-10-01T01:17:33.920091+00:00",
+          "note": "Assigned to MCD Sanitation & Solid Waste",
+          "actor": "Municipal Dispatch",
+          "actor_role": "authority"
+        }
+      ],
+      "priority_score": null,
+      "priority_level": null,
+      "priority_explanation": null,
+      "assigned_to": null,
+      "assigned_at": null,
+      "assignment_history": [],
+      "internal_notes": [],
+      "status_update_requests": []
+    }
+  ]
+}

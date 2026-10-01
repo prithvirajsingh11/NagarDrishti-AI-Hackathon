@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  * {
+    font-family: var(--font-sans);
+  }
+
+  html, body, #root {
+    overflow-x: hidden;
+    max-width: 100vw;
+    width: 100%;
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-sans);
+    color: #0f172a;
+    background-color: #f8fafc;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  /* Clean Professional Dark Mode */
+  html.dark body {
+    color: #f1f5f9;
+    background-color: #0f172a;
+  }
+
+  /* Remap slate tokens in dark mode to warm velvety creamy hues */
+  html.dark {
+    --color-slate-950: #12100f;
+    --color-slate-900: #1a1715; /* Base creamy dark surface */
+    --color-slate-850: #201c19;
+    --color-slate-800: #24201d; /* Elevated creamy card */
+    --color-slate-750: #2c2622;
+    --color-slate-700: #38312b; /* Warm creamy border */
+    --color-slate-650: #463d36;
+    --color-slate-600: #574c43;
+    --color-slate-500: #88786a; /* Warm stone secondary */
+    --color-slate-400: #b5a494; /* Soft warm beige text */
+    --color-slate-300: #d4c5b5; /* Creamy latte text */
+    --color-slate-200: #ebe0d3; /* Light cream text */
+    --color-slate-100: #f5ece1; /* Rich warm ivory */
+    --color-slate-50:  #faf5ee; /* Pure warm cream */
+
+    /* Warm creamy scrollbar */
+    scrollbar-color: #38312b #1a1715;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+html.dark ::-webkit-scrollbar-thumb {
+  background: #38312b;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #574c43;
+}
+
+/* Hide scrollbar for clean touch carousels */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Touch manipulation & input accessibility */
+button, a, input, select, textarea {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Prevent auto-zoom & keep comfortable readable text on Android */
+@media (max-width: 640px) {
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="search"],
+  textarea,
+  select {
+    font-size: 16px !important;
+    scroll-margin-top: 90px;
+  }
+}
+
+/* Android Safe Area Utilities */
+.safe-top {
+  padding-top: max(env(safe-area-inset-top, 0px), 0px);
+}
+
+.safe-bottom {
+  padding-bottom: max(env(safe-area-inset-bottom, 0px), 12px);
+}
+
+.safe-mb {
+  margin-bottom: max(env(safe-area-inset-bottom, 0px), 0px);
+}
+
+/* Leaflet map styles with warm creamy night filter in dark mode */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+  z-index: 10;
+  touch-action: pan-x pan-y;
+}
+
+html.dark .leaflet-tile {
+  filter: brightness(0.78) invert(1) contrast(2.3) hue-rotate(170deg) sepia(0.38) saturate(0.85);
+}
+
+/* Leaflet Mobile Touch Optimization */
+@media (max-width: 640px) {
+  .leaflet-touch .leaflet-bar a {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+  }
+  .leaflet-popup-content-wrapper {
+    border-radius: 1rem;
+    padding: 2px;
+  }
+}
+
+/* Premium Motion & Micro-Animation System */
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes subtleFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.3);
+  }
+  50% {
+    box-shadow: 0 6px 22px rgba(37, 99, 235, 0.55);
+  }
+}
+
+.animate-fade-slide-up {
+  animation: fadeSlideUp 0.32s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-subtle-float {
+  animation: subtleFloat 3.5s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2.5s ease-in-out infinite;
+}
+
+/* Glassmorphism navigation dock */
+.glass-nav-dock {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+html.dark .glass-nav-dock {
+  background: rgba(26, 23, 21, 0.90);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+

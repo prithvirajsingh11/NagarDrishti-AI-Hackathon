@@ -1,0 +1,24 @@
+{
+  "name": "NagarDrishti AI - Civic Intelligence",
+  "short_name": "NagarDrishti",
+  "description": "AI-Powered Civic Intelligence platform for smart citizen reporting and municipal decision-support.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B2545",
+  "theme_color": "#0B2545",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["government", "utilities", "productivity"]
+}
