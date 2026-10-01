@@ -4,6 +4,15 @@
 
 > A unified, closed-loop civic engagement system connecting citizens and municipal authorities.  
 > **Photo → AI Analysis → Visual Severity → Location → Suggested Department → Citizen Confirmation → Complaint → Authority Priority Queue → Resolution Evidence → Citizen Verification**
+>
+> 🌐 **Live Web App:** [https://nagar-drishti-ai.vercel.app/](https://nagar-drishti-ai.vercel.app/)  
+> 📱 **Android APK:** [`app-debug.apk`](app-debug.apk) | [Direct Download](https://github.com/prithvirajsingh11/NagarDrishti-AI-Hackathon/raw/main/citizen-portal/app-debug.apk)
+
+### 📱 Android Mobile Application Previews
+
+| Home Dashboard | Report Issue (Camera/AI) | City Civic Map | Track My Reports | Navigation Drawer |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="docs/screenshots/01_home_screen.jpg" width="160" alt="Home Dashboard" /> | <img src="docs/screenshots/02_report_issue.jpg" width="160" alt="Report Issue" /> | <img src="docs/screenshots/03_city_civic_map.jpg" width="160" alt="City Civic Map" /> | <img src="docs/screenshots/04_my_civic_reports.jpg" width="160" alt="My Civic Reports" /> | <img src="docs/screenshots/05_navigation_menu.jpg" width="160" alt="Navigation Drawer" /> |
 
 ---
 

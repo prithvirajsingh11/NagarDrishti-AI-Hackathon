@@ -78,6 +78,14 @@ NagarDrishti operates as two decoupled frontend applications sharing a unified m
 - **Governance Analytics**: Evidence-based First-Time Resolution Rate, Citizen Verification Rate, and Department Workload metrics (zero fake data; explicit fallback to "Insufficient data").
 - **Secure CSV Export**: Role-protected, filter-aware CSV export excluding internal notes and authentication credentials.
 
+### 📸 Command Center Previews
+
+#### 🏛️ Real-Time KPI Dashboard & Incident Pipeline
+![Authority Command Center](docs/screenshots/authority_command_center.png)
+
+#### 🗺️ Metropolitan Geographic Map & Hotspot Intelligence
+![Authority GIS Map Intelligence](docs/screenshots/authority_gis_map.png)
+
 ---
 
 ## 🔒 Security & Privacy Guarantees
