@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://nagar-drishti-ai.vercel.app/"><b>🌐 Citizen Web Portal (Live)</b></a> &nbsp;•&nbsp;
   <a href="https://nagardrishti-ai-authority.vercel.app/"><b>🏛️ Authority Command Center (Live)</b></a> &nbsp;•&nbsp;
-  <a href="https://github.com/prithvirajsingh11/NagarDrishti-AI-Hackathon/raw/main/citizen-portal/app-debug.apk"><b>📱 Download Android APK (Direct)</b></a>
+  <a href="https://github.com/prithvirajsingh11/NagarDrishti-AI-Hackathon/raw/main/NagarDrishti-AI_1.0.0.apk"><b>📱 Download Android APK v1.0.0 (Direct)</b></a>
 </p>
 
 ---
@@ -16,11 +16,11 @@
 |---|---|---|
 | 🌐 **Citizen Portal (Live Web Preview)** | Production Web App (Vercel) | [**https://nagar-drishti-ai.vercel.app/**](https://nagar-drishti-ai.vercel.app/) *(Try app instantly in browser)* |
 | 🏛️ **Authority Command Center (Live Web)** | Production Administrative Portal (Vercel) | [**https://nagardrishti-ai-authority.vercel.app/**](https://nagardrishti-ai-authority.vercel.app/) |
-| 📱 **Citizen Mobile App (Android APK)** | Native Android Application (Capacitor) | [**Direct Download `app-debug.apk`**](https://github.com/prithvirajsingh11/NagarDrishti-AI-Hackathon/raw/main/citizen-portal/app-debug.apk) *(10.4 MB)* |
+| 📱 **Citizen Mobile App (Android APK v1.0.0)** | Native Android Application (Capacitor) | [**Direct Download `NagarDrishti-AI_1.0.0.apk`**](https://github.com/prithvirajsingh11/NagarDrishti-AI-Hackathon/raw/main/NagarDrishti-AI_1.0.0.apk) *(11.1 MB)* |
 
 > 📱 **How to Test the Mobile App:**  
 > - **Instant Browser Test:** Open the [**Citizen Web Portal**](https://nagar-drishti-ai.vercel.app/) — it runs the identical mobile-responsive PWA interface, camera intake, and AI analysis workflow in any browser.
-> - **Android Device Installation:** Click [**Direct Download `app-debug.apk`**](https://github.com/prithvirajsingh11/NagarDrishti-AI-Hackathon/raw/main/citizen-portal/app-debug.apk) to download and install on any Android phone or emulator. Full Android Studio project source is at [`citizen-portal/frontend/android/`](citizen-portal/frontend/android/).
+> - **Android Device Installation:** Click [**Direct Download `NagarDrishti-AI_1.0.0.apk`**](https://github.com/prithvirajsingh11/NagarDrishti-AI-Hackathon/raw/main/NagarDrishti-AI_1.0.0.apk) to download and install on any Android phone or emulator. Full Android Studio project source is at [`citizen-portal/frontend/android/`](citizen-portal/frontend/android/).
 
 ### 📱 Mobile Application Previews (Android App in Action)
 
@@ -206,7 +206,7 @@ NagarDrishti-AI-Hackathon/
 │   │   └── package.json             # Frontend dependencies
 │   ├── supabase/                    # SQL migrations and RLS security policies
 │   ├── docs/                        # Architecture, feature matrix, demo script
-│   ├── app-debug.apk                # Pre-built Android debug APK
+│   ├── app-debug.apk                # Android debug APK
 │   └── README.md                    # Citizen Portal detailed documentation
 │
 ├── authority-portal/                # Municipal Authority Command Center
@@ -222,6 +222,7 @@ NagarDrishti-AI-Hackathon/
 │   ├── docs/                        # Architecture, feature matrix, demo script
 │   └── README.md                    # Authority Portal detailed documentation
 │
+├── NagarDrishti-AI_1.0.0.apk        # Production Android APK build (v1.0.0, 11.1 MB)
 ├── .gitignore                       # Root ignore rules for secrets, builds & caches
 ├── .gitattributes                   # Text file line normalization
 └── README.md                        # Master hackathon submission documentation
@@ -239,8 +240,8 @@ NagarDrishti-AI-Hackathon/
 ### 🏛️ Municipal Authority Portal (Live Web)
 👉 [**https://nagardrishti-ai-authority.vercel.app/**](https://nagardrishti-ai-authority.vercel.app/)
 
-### 📱 Citizen Android Mobile Application (APK)
-👉 [**Direct Download `app-debug.apk`**](https://github.com/prithvirajsingh11/NagarDrishti-AI-Hackathon/raw/main/citizen-portal/app-debug.apk) *(10.4 MB pre-compiled APK)*
+### 📱 Citizen Android Mobile Application (APK v1.0.0)
+👉 [**Direct Download `NagarDrishti-AI_1.0.0.apk`**](https://github.com/prithvirajsingh11/NagarDrishti-AI-Hackathon/raw/main/NagarDrishti-AI_1.0.0.apk) *(11.1 MB release APK)*
 * Built using Capacitor native Android shell (`@capacitor/android`)
 * Direct download link bypasses GitHub blob viewer
 * Full Android Studio project source: [`citizen-portal/frontend/android/`](citizen-portal/frontend/android/)

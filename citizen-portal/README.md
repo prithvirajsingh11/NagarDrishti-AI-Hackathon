@@ -6,7 +6,7 @@
 > **Photo → AI Analysis → Visual Severity → Location → Suggested Department → Citizen Confirmation → Complaint → Authority Priority Queue → Resolution Evidence → Citizen Verification**
 >
 > 🌐 **Live Web App:** [https://nagar-drishti-ai.vercel.app/](https://nagar-drishti-ai.vercel.app/)  
-> 📱 **Android APK:** [`app-debug.apk`](app-debug.apk) | [Direct Download](https://github.com/prithvirajsingh11/NagarDrishti-AI-Hackathon/raw/main/citizen-portal/app-debug.apk)
+> 📱 **Android APK v1.0.0:** [`NagarDrishti-AI_1.0.0.apk`](../NagarDrishti-AI_1.0.0.apk) | [Direct Download](https://github.com/prithvirajsingh11/NagarDrishti-AI-Hackathon/raw/main/NagarDrishti-AI_1.0.0.apk) (11.1 MB)
 
 ### 📱 Android Mobile Application Previews
 
