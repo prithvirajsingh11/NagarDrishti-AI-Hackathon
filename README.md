@@ -2,6 +2,27 @@
 
 ### AI-Powered Civic Issue Reporting & Municipal Governance Intelligence Platform
 
+<p align="center">
+  <a href="https://nagar-drishti-ai.vercel.app/"><b>🌐 Citizen Web Portal (Live)</b></a> &nbsp;•&nbsp;
+  <a href="https://nagardrishti-ai-authority.vercel.app/"><b>🏛️ Authority Command Center (Live)</b></a> &nbsp;•&nbsp;
+  <a href="citizen-portal/app-debug.apk"><b>📱 Android App (APK)</b></a>
+</p>
+
+---
+
+### 🚀 Live Deployments & Applications
+
+| Platform | Deployment Type | Live URL / Asset |
+|---|---|---|
+| 🌐 **Citizen Portal (Live Web)** | Production Web App (Vercel) | [**https://nagar-drishti-ai.vercel.app/**](https://nagar-drishti-ai.vercel.app/) |
+| 🏛️ **Authority Command Center (Live Web)** | Production Administrative Portal (Vercel) | [**https://nagardrishti-ai-authority.vercel.app/**](https://nagardrishti-ai-authority.vercel.app/) |
+| 📱 **Citizen Mobile App (Android APK)** | Native Android Application (Capacitor) | [**Download `app-debug.apk`**](citizen-portal/app-debug.apk) *(Pre-compiled APK included in repo)* |
+
+> 📱 **Native Mobile Application Available:**  
+> NagarDrishti is designed for both web and mobile. The Citizen Portal includes a fully configured **native Android mobile application** built using Capacitor (`@capacitor/android`). The ready-to-install debug APK is provided directly in this repository at [`citizen-portal/app-debug.apk`](citizen-portal/app-debug.apk), and the complete native Android project source is available under [`citizen-portal/frontend/android/`](citizen-portal/frontend/android/).
+
+---
+
 > **Hackathon Submission Notice:**  
 > This repository consolidates **TWO independent, production-grade applications** into a single source-code submission for hackathon evaluation:
 > 1. **Citizen Portal** (`citizen-portal/`): [github.com/prithvirajsingh11/NagarDrishti-AI](https://github.com/prithvirajsingh11/NagarDrishti-AI)
@@ -191,16 +212,21 @@ NagarDrishti-AI-Hackathon/
 
 ---
 
-## 7. Live Demo Links
+## 7. Live Demo Links & Applications
 
-> **Deployment Note:** The live deployments are hosted and continuously deployed from the original standalone repositories. The links below reflect the active deployments:
+> **Deployment Note:** The live deployments are hosted and continuously deployed from the original standalone repositories. The links below reflect the active production deployments:
 
-### Citizen Portal
-`YOUR_EXISTING_CITIZEN_DEPLOYMENT_URL`  
-*(Configured production fallback: `https://nagar-drishit-ai.vercel.app`)*
+### 🌐 Citizen Portal (Live Web)
+👉 [**https://nagar-drishti-ai.vercel.app/**](https://nagar-drishti-ai.vercel.app/)
 
-### Authority Portal
-`YOUR_EXISTING_AUTHORITY_DEPLOYMENT_URL`
+### 🏛️ Municipal Authority Portal (Live Web)
+👉 [**https://nagardrishti-ai-authority.vercel.app/**](https://nagardrishti-ai-authority.vercel.app/)
+
+### 📱 Citizen Android Mobile Application (APK)
+👉 [**Download `app-debug.apk`**](citizen-portal/app-debug.apk) *(Pre-compiled APK in repository)*
+* Built using Capacitor native Android shell (`@capacitor/android`)
+* Full Android Studio project source: [`citizen-portal/frontend/android/`](citizen-portal/frontend/android/)
+* Features camera capture, location tagging, offline submission support, and responsive UI
 
 ---
 
